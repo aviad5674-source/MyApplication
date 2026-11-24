@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">Student Registration</string>
+
+    <!-- Registration -->
+    <string name="title">Student Registration</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+
+    <string name="class_label">Class</string>
+    <string name="class_10">10th grade</string>
+    <string name="class_11">11th grade</string>
+    <string name="class_12">12th grade</string>
+
+    <string name="major_label">Major</string>
+    <string name="major_prompt">Choose a major</string>
+
+    <string-array name="majors">
+        <item>@string/major_prompt</item>
+        <item>Computer Science</item>
+        <item>Physics</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+    </string-array>
+
+    <string name="major_computers">Computer Science</string>
+    <string name="major_physics">Physics</string>
+    <string name="major_biology">Biology</string>
+    <string name="major_chemistry">Chemistry</string>
+
+    <string name="notifications">I agree to receive notifications</string>
+    <string name="terms">I agree to the terms of use</string>
+
+    <string name="register">Register</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit details</string>
+    <string name="save_return">Save and return</string>
+    <string name="send_email">Send email</string>
+    <string name="share">Share details</string>
+
+    <!-- Details -->
+    <string name="details_title">Student Details</string>
+    <string name="details_first_name">First name: %1$s</string>
+    <string name="details_last_name">Last name: %1$s</string>
+    <string name="details_email">Email: %1$s</string>
+    <string name="details_class">Class: %1$s</string>
+    <string name="details_major">Major: %1$s</string>
+    <string name="details_notifications">Notifications: %1$s</string>
+    <string name="details_terms">Terms accepted: %1$s</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Errors -->
+    <string name="error_first_name">Please enter your first name</string>
+    <string name="error_last_name">Please enter your last name</string>
+    <string name="error_email">Please enter a valid email address</string>
+    <string name="error_class">Please choose a class</string>
+    <string name="error_major">Please choose a major</string>
+    <string name="error_terms">Please agree to the terms of use</string>
+
+    <!-- Email and sharing -->
+    <string name="email_subject">Student Details</string>
+    <string name="student_message">Student Details\n\nFirst name: %1$s\nLast name: %2$s\nEmail: %3$s\nClass: %4$s\nMajor: %5$s\nNotifications: %6$s\nTerms accepted: %7$s</string>
+
+    <string name="email_not_available">No email application is available</string>
+    <string name="share_not_available">No application is available for sharing</string>
+    <string name="student_not_found">Student information is unavailable</string>
+
+</resources>
